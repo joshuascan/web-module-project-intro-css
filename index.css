@@ -164,3 +164,21 @@ nav a {
 .bold {
     font-weight: bold;
 }
+
+.reservation-info {
+
+}
+
+/* Bottom Image */
+
+.background-image {
+    background-image: url("assets/footer_img.jpg");
+    background-size: cover;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: 0 15%;
+    margin-top: 2%;
+}
+
+/* Footer */
+
