@@ -43,7 +43,7 @@ blockquote, q {
     border: 1px solid gray;
 }
 
-/*General Styles*/
+/* General Styles */
 html {
     font-size: 62.5%;
 }
@@ -92,7 +92,7 @@ nav a {
     margin-right: 10%;
 }
 
-/*Top Section Styles*/
+/* Top Section Styles */
 .top {
     position: relative;
 }
@@ -116,14 +116,51 @@ nav a {
     bottom: 15%;
 }
 
-.right h2 {
-    /* margin: 4%; */
-}
-
 .right p {
     width: 60%;
     margin: 0 auto;
     line-height: 1.2;
     text-align: center;
     padding-top: 2%;
+}
+
+/* About Section Styles */
+
+.about {
+    background-color: #DDB9A3;
+    color: white;
+    padding: 0.5% 2%;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.main {
+    padding: 0;
+    margin: 2% 4%;
+}
+
+.about p {
+    padding: 0.5%;
+}
+
+/* Info Section Styles */
+
+.info {
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 0;
+}
+
+.info img {
+    width: 40%;
+    padding-bottom: 2%;
+}
+
+.info div {
+    padding: 7%;
+}
+
+.bold {
+    font-weight: bold;
 }
