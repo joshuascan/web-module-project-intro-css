@@ -75,6 +75,12 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    transition: 0.75s;
+}
+
+a:hover {
+    color: #414141;
+    box-shadow: 5px 5px 30px 4px slategray;
 }
 
 .orange {
@@ -82,14 +88,26 @@ nav a {
     margin-left: 10%;
 }
 
+.orange:hover {
+    background-color: #ee3800;
+}
+
 .blue {
     background-color: #5ED3EB;
     margin: 0 24%;
 }
 
+.blue:hover {
+    background-color: #0196db;
+}
+
 .yellow {
     background-color: #FFCD69;
     margin-right: 10%;
+}
+
+.yellow:hover {
+    background-color: #fca801;
 }
 
 /* Top Section Styles */
