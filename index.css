@@ -49,7 +49,7 @@ html {
 }
 
 body {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     line-height: 1.5;
     font-family: 'Roboto Mono', monospace;
 }
@@ -106,12 +106,24 @@ nav a {
 
 .left img {
     border-radius: 50%;
-    width: 60%;
+    width: 50%;
 }
 
 .right {
     padding: 4%;
     line-height: 2;
     position: absolute;
-    bottom: 20%;
+    bottom: 15%;
+}
+
+.right h2 {
+    /* margin: 4%; */
+}
+
+.right p {
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1.2;
+    text-align: center;
+    padding-top: 2%;
 }
